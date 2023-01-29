@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Teclado numerico</title>
+  <style>
+    *{
+      margin: 0px;
+      height: 0px;
+      padding: 0px;
+    }
+    body{
+      background-color: rgb(3, 31, 82);
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    table{
+      position: absolute;
+      background-color: black;
+      color: white;
+      border-collapse: separate;
+      text-align: center;
+      width: 300px;
+      height: 400px;
+      box-shadow:  10px 10px 1000px 100px  rgba(128, 0, 128, 0.733);
+    }
+    td{
+      width: 50px;
+      border: 1px solid white;
+    }
+    td:hover{
+      background-color: rgba(73, 72, 72, 0.966);
+    }
+  </style>
+</head>
+<body>
+      <div style="display: flex; align-items: center; justify-content: center; height: 100vh;">
+        <table>
+          <tr>
+            <td>Num <br> Lock</td>
+            <td>/</td>
+            <td>*</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7 <br>
+            home</td>
+            <td> 8 <br>
+              ↑</td>
+            <td>9  <br> PgUp</td>
+            <td>+</td>
+          </tr>
+          <tr>
+            <td> 4 <br> ←</td>
+            <td>5</td>
+            <td>6 <br> → </td>
+            <td>.</td>
+          </tr>
+          <tr>
+            <td>1 <br> end</td>
+            <td> 2 <br> ↓  </td>
+            <td>3 <br> PgDn</td>
+            <td rowspan="2">Enter</td>
+          </tr>
+          <tr>
+            <td colspan="2">0 <br> Ins</td>
+            <td> , <br> Del</td>
+          </tr>
+        </table>
+      </div>
+  
+</body>
+</html>
